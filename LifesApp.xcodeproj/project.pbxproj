@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1BA845601A6FDB5A9BA0BBF8 /* Pods_LifesApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A97CD1641AAD504F194A142A /* Pods_LifesApp.framework */; };
+		3503078A29B6514200866DEE /* PharmacyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3503078929B6514200866DEE /* PharmacyViewModel.swift */; };
+		3503078E29B65B8C00866DEE /* WeatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3503078D29B65B8C00866DEE /* WeatherViewController.swift */; };
+		3503079029B65BBC00866DEE /* PrayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3503078F29B65BBC00866DEE /* PrayerViewController.swift */; };
+		3503079229B65BE900866DEE /* PrayerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3503079129B65BE900866DEE /* PrayerViewModel.swift */; };
+		3503079429B65BF300866DEE /* WeatherViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3503079329B65BF300866DEE /* WeatherViewModel.swift */; };
+		350BC91F29B4D055004FDD49 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350BC91E29B4D055004FDD49 /* AppDelegate.swift */; };
+		350BC92129B4D055004FDD49 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350BC92029B4D055004FDD49 /* SceneDelegate.swift */; };
+		350BC92329B4D055004FDD49 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350BC92229B4D055004FDD49 /* ViewController.swift */; };
+		350BC92829B4D056004FDD49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 350BC92729B4D056004FDD49 /* Assets.xcassets */; };
+		350BC92B29B4D056004FDD49 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 350BC92929B4D056004FDD49 /* LaunchScreen.storyboard */; };
+		3560FC9829B64046002C62C4 /* NetworkHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3560FC9729B64046002C62C4 /* NetworkHelper.swift */; };
+		3560FC9A29B6441E002C62C4 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3560FC9929B6441E002C62C4 /* NetworkManager.swift */; };
+		3560FC9F29B6449F002C62C4 /* PharmacyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3560FC9E29B6449F002C62C4 /* PharmacyModel.swift */; };
+		3560FCA129B644A6002C62C4 /* WeatherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3560FCA029B644A6002C62C4 /* WeatherModel.swift */; };
+		3560FCA729B6452B002C62C4 /* PrayerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3560FCA629B6452B002C62C4 /* PrayerModel.swift */; };
+		35AD386029B67CDF00E6CD9A /* NewsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35AD385F29B67CDF00E6CD9A /* NewsModel.swift */; };
+		35AD386229B67D5F00E6CD9A /* NewsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35AD386129B67D5F00E6CD9A /* NewsViewModel.swift */; };
+		35AD386429B67DF900E6CD9A /* NewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35AD386329B67DF900E6CD9A /* NewsViewController.swift */; };
+		35AD386829B68B2B00E6CD9A /* WeatherViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35AD386629B68B2B00E6CD9A /* WeatherViewCell.swift */; };
+		35AD386929B68B2B00E6CD9A /* WeatherViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 35AD386729B68B2B00E6CD9A /* WeatherViewCell.xib */; };
+		35AD386B29B6CD2600E6CD9A /* CityModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35AD386A29B6CD2600E6CD9A /* CityModel.swift */; };
+		35AD386D29B6D22700E6CD9A /* CityViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35AD386C29B6D22700E6CD9A /* CityViewModel.swift */; };
+		35AD67B029B4D8D9009A421D /* UIView-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35AD67AF29B4D8D9009A421D /* UIView-Extension.swift */; };
+		35AD67B429B4E734009A421D /* CircleMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35AD67B329B4E734009A421D /* CircleMenu.swift */; };
+		35AD67B729B4F16F009A421D /* CircleMenuButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35AD67B629B4F16F009A421D /* CircleMenuButton.swift */; };
+		35AD67BA29B4F1AA009A421D /* CircleMenuLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35AD67B929B4F1AA009A421D /* CircleMenuLoader.swift */; };
+		35AD67BC29B57BAC009A421D /* UIColor-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35AD67BB29B57BAC009A421D /* UIColor-Extension.swift */; };
+		35AD67BE29B57BED009A421D /* UIImageView-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35AD67BD29B57BED009A421D /* UIImageView-Extension.swift */; };
+		35E96CE329B6282C00BF8F0B /* UIButton-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E96CE229B6282C00BF8F0B /* UIButton-Extension.swift */; };
+		35E96CE529B6325200BF8F0B /* PharmacyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E96CE429B6325200BF8F0B /* PharmacyViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3503078929B6514200866DEE /* PharmacyViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PharmacyViewModel.swift; sourceTree = "<group>"; };
+		3503078D29B65B8C00866DEE /* WeatherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewController.swift; sourceTree = "<group>"; };
+		3503078F29B65BBC00866DEE /* PrayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrayerViewController.swift; sourceTree = "<group>"; };
+		3503079129B65BE900866DEE /* PrayerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrayerViewModel.swift; sourceTree = "<group>"; };
+		3503079329B65BF300866DEE /* WeatherViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewModel.swift; sourceTree = "<group>"; };
+		350BC91B29B4D055004FDD49 /* LifesApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LifesApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		350BC91E29B4D055004FDD49 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		350BC92029B4D055004FDD49 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		350BC92229B4D055004FDD49 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		350BC92729B4D056004FDD49 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		350BC92A29B4D056004FDD49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		350BC92C29B4D056004FDD49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3560FC9729B64046002C62C4 /* NetworkHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkHelper.swift; sourceTree = "<group>"; };
+		3560FC9929B6441E002C62C4 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		3560FC9E29B6449F002C62C4 /* PharmacyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PharmacyModel.swift; sourceTree = "<group>"; };
+		3560FCA029B644A6002C62C4 /* WeatherModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherModel.swift; sourceTree = "<group>"; };
+		3560FCA629B6452B002C62C4 /* PrayerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrayerModel.swift; sourceTree = "<group>"; };
+		35AD385F29B67CDF00E6CD9A /* NewsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsModel.swift; sourceTree = "<group>"; };
+		35AD386129B67D5F00E6CD9A /* NewsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewModel.swift; sourceTree = "<group>"; };
+		35AD386329B67DF900E6CD9A /* NewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewController.swift; sourceTree = "<group>"; };
+		35AD386629B68B2B00E6CD9A /* WeatherViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewCell.swift; sourceTree = "<group>"; };
+		35AD386729B68B2B00E6CD9A /* WeatherViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WeatherViewCell.xib; sourceTree = "<group>"; };
+		35AD386A29B6CD2600E6CD9A /* CityModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityModel.swift; sourceTree = "<group>"; };
+		35AD386C29B6D22700E6CD9A /* CityViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityViewModel.swift; sourceTree = "<group>"; };
+		35AD67AF29B4D8D9009A421D /* UIView-Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView-Extension.swift"; sourceTree = "<group>"; };
+		35AD67B329B4E734009A421D /* CircleMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleMenu.swift; sourceTree = "<group>"; };
+		35AD67B629B4F16F009A421D /* CircleMenuButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleMenuButton.swift; sourceTree = "<group>"; };
+		35AD67B929B4F1AA009A421D /* CircleMenuLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleMenuLoader.swift; sourceTree = "<group>"; };
+		35AD67BB29B57BAC009A421D /* UIColor-Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor-Extension.swift"; sourceTree = "<group>"; };
+		35AD67BD29B57BED009A421D /* UIImageView-Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView-Extension.swift"; sourceTree = "<group>"; };
+		35E96CE229B6282C00BF8F0B /* UIButton-Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton-Extension.swift"; sourceTree = "<group>"; };
+		35E96CE429B6325200BF8F0B /* PharmacyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PharmacyViewController.swift; sourceTree = "<group>"; };
+		42B250CE46389860F7CB7144 /* Pods-LifesApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LifesApp.release.xcconfig"; path = "Target Support Files/Pods-LifesApp/Pods-LifesApp.release.xcconfig"; sourceTree = "<group>"; };
+		6295F64D93A002AE8F72AF7A /* Pods-LifesApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LifesApp.debug.xcconfig"; path = "Target Support Files/Pods-LifesApp/Pods-LifesApp.debug.xcconfig"; sourceTree = "<group>"; };
+		A97CD1641AAD504F194A142A /* Pods_LifesApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LifesApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		350BC91829B4D055004FDD49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BA845601A6FDB5A9BA0BBF8 /* Pods_LifesApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		350BC91229B4D055004FDD49 = {
+			isa = PBXGroup;
+			children = (
+				35AD67B229B4E71E009A421D /* CircleMenuLibrary */,
+				350BC91D29B4D055004FDD49 /* LifesApp */,
+				350BC91C29B4D055004FDD49 /* Products */,
+				F63F028881EAE6E6FD72D2FF /* Pods */,
+				ECE510A274FFC14B7F3ED290 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		350BC91C29B4D055004FDD49 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				350BC91B29B4D055004FDD49 /* LifesApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		350BC91D29B4D055004FDD49 /* LifesApp */ = {
+			isa = PBXGroup;
+			children = (
+				3560FCA829B647E7002C62C4 /* ViewModel */,
+				3560FC9B29B6448B002C62C4 /* Model */,
+				35AD67B129B4E35A009A421D /* View */,
+				3560FC9629B63FDE002C62C4 /* Managers */,
+				35AD67AE29B4D8CD009A421D /* Extensions */,
+				350BC91E29B4D055004FDD49 /* AppDelegate.swift */,
+				350BC92029B4D055004FDD49 /* SceneDelegate.swift */,
+				350BC92729B4D056004FDD49 /* Assets.xcassets */,
+				350BC92929B4D056004FDD49 /* LaunchScreen.storyboard */,
+				350BC92C29B4D056004FDD49 /* Info.plist */,
+			);
+			path = LifesApp;
+			sourceTree = "<group>";
+		};
+		3560FC9629B63FDE002C62C4 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				3560FC9729B64046002C62C4 /* NetworkHelper.swift */,
+				3560FC9929B6441E002C62C4 /* NetworkManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		3560FC9B29B6448B002C62C4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3560FC9E29B6449F002C62C4 /* PharmacyModel.swift */,
+				3560FCA029B644A6002C62C4 /* WeatherModel.swift */,
+				3560FCA629B6452B002C62C4 /* PrayerModel.swift */,
+				35AD385F29B67CDF00E6CD9A /* NewsModel.swift */,
+				35AD386A29B6CD2600E6CD9A /* CityModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3560FCA829B647E7002C62C4 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				3503078929B6514200866DEE /* PharmacyViewModel.swift */,
+				3503079129B65BE900866DEE /* PrayerViewModel.swift */,
+				3503079329B65BF300866DEE /* WeatherViewModel.swift */,
+				35AD386129B67D5F00E6CD9A /* NewsViewModel.swift */,
+				35AD386C29B6D22700E6CD9A /* CityViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		35AD386529B68A7500E6CD9A /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				35AD386629B68B2B00E6CD9A /* WeatherViewCell.swift */,
+				35AD386729B68B2B00E6CD9A /* WeatherViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		35AD67AE29B4D8CD009A421D /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				35AD67AF29B4D8D9009A421D /* UIView-Extension.swift */,
+				35AD67BB29B57BAC009A421D /* UIColor-Extension.swift */,
+				35AD67BD29B57BED009A421D /* UIImageView-Extension.swift */,
+				35E96CE229B6282C00BF8F0B /* UIButton-Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		35AD67B129B4E35A009A421D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				350BC92229B4D055004FDD49 /* ViewController.swift */,
+				35E96CE429B6325200BF8F0B /* PharmacyViewController.swift */,
+				3503078D29B65B8C00866DEE /* WeatherViewController.swift */,
+				35AD386329B67DF900E6CD9A /* NewsViewController.swift */,
+				3503078F29B65BBC00866DEE /* PrayerViewController.swift */,
+				35AD386529B68A7500E6CD9A /* Cell */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		35AD67B229B4E71E009A421D /* CircleMenuLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				35AD67B829B4F19B009A421D /* CircleMenuLoader */,
+				35AD67B529B4F15A009A421D /* CircleMenuButton */,
+				35AD67B329B4E734009A421D /* CircleMenu.swift */,
+			);
+			path = CircleMenuLibrary;
+			sourceTree = "<group>";
+		};
+		35AD67B529B4F15A009A421D /* CircleMenuButton */ = {
+			isa = PBXGroup;
+			children = (
+				35AD67B629B4F16F009A421D /* CircleMenuButton.swift */,
+			);
+			path = CircleMenuButton;
+			sourceTree = "<group>";
+		};
+		35AD67B829B4F19B009A421D /* CircleMenuLoader */ = {
+			isa = PBXGroup;
+			children = (
+				35AD67B929B4F1AA009A421D /* CircleMenuLoader.swift */,
+			);
+			path = CircleMenuLoader;
+			sourceTree = "<group>";
+		};
+		ECE510A274FFC14B7F3ED290 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A97CD1641AAD504F194A142A /* Pods_LifesApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F63F028881EAE6E6FD72D2FF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6295F64D93A002AE8F72AF7A /* Pods-LifesApp.debug.xcconfig */,
+				42B250CE46389860F7CB7144 /* Pods-LifesApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		350BC91A29B4D055004FDD49 /* LifesApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 350BC92F29B4D056004FDD49 /* Build configuration list for PBXNativeTarget "LifesApp" */;
+			buildPhases = (
+				CB68A0A2F42EE55B89826A2A /* [CP] Check Pods Manifest.lock */,
+				350BC91729B4D055004FDD49 /* Sources */,
+				350BC91829B4D055004FDD49 /* Frameworks */,
+				350BC91929B4D055004FDD49 /* Resources */,
+				DD886A9E8B61C82E556CD261 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LifesApp;
+			productName = LifesApp;
+			productReference = 350BC91B29B4D055004FDD49 /* LifesApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		350BC91329B4D055004FDD49 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					350BC91A29B4D055004FDD49 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = 350BC91629B4D055004FDD49 /* Build configuration list for PBXProject "LifesApp" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 350BC91229B4D055004FDD49;
+			productRefGroup = 350BC91C29B4D055004FDD49 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				350BC91A29B4D055004FDD49 /* LifesApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		350BC91929B4D055004FDD49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				350BC92B29B4D056004FDD49 /* LaunchScreen.storyboard in Resources */,
+				35AD386929B68B2B00E6CD9A /* WeatherViewCell.xib in Resources */,
+				350BC92829B4D056004FDD49 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		CB68A0A2F42EE55B89826A2A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LifesApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DD886A9E8B61C82E556CD261 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LifesApp/Pods-LifesApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LifesApp/Pods-LifesApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LifesApp/Pods-LifesApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		350BC91729B4D055004FDD49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35E96CE529B6325200BF8F0B /* PharmacyViewController.swift in Sources */,
+				3503079029B65BBC00866DEE /* PrayerViewController.swift in Sources */,
+				35AD67BE29B57BED009A421D /* UIImageView-Extension.swift in Sources */,
+				35AD386029B67CDF00E6CD9A /* NewsModel.swift in Sources */,
+				35AD386B29B6CD2600E6CD9A /* CityModel.swift in Sources */,
+				35AD67B029B4D8D9009A421D /* UIView-Extension.swift in Sources */,
+				3503078E29B65B8C00866DEE /* WeatherViewController.swift in Sources */,
+				3560FC9A29B6441E002C62C4 /* NetworkManager.swift in Sources */,
+				35AD67BC29B57BAC009A421D /* UIColor-Extension.swift in Sources */,
+				35AD386829B68B2B00E6CD9A /* WeatherViewCell.swift in Sources */,
+				3560FC9829B64046002C62C4 /* NetworkHelper.swift in Sources */,
+				35E96CE329B6282C00BF8F0B /* UIButton-Extension.swift in Sources */,
+				350BC92329B4D055004FDD49 /* ViewController.swift in Sources */,
+				3503079229B65BE900866DEE /* PrayerViewModel.swift in Sources */,
+				3503078A29B6514200866DEE /* PharmacyViewModel.swift in Sources */,
+				3503079429B65BF300866DEE /* WeatherViewModel.swift in Sources */,
+				35AD386429B67DF900E6CD9A /* NewsViewController.swift in Sources */,
+				350BC91F29B4D055004FDD49 /* AppDelegate.swift in Sources */,
+				3560FC9F29B6449F002C62C4 /* PharmacyModel.swift in Sources */,
+				3560FCA729B6452B002C62C4 /* PrayerModel.swift in Sources */,
+				350BC92129B4D055004FDD49 /* SceneDelegate.swift in Sources */,
+				35AD67B729B4F16F009A421D /* CircleMenuButton.swift in Sources */,
+				35AD67BA29B4F1AA009A421D /* CircleMenuLoader.swift in Sources */,
+				35AD386229B67D5F00E6CD9A /* NewsViewModel.swift in Sources */,
+				3560FCA129B644A6002C62C4 /* WeatherModel.swift in Sources */,
+				35AD386D29B6D22700E6CD9A /* CityViewModel.swift in Sources */,
+				35AD67B429B4E734009A421D /* CircleMenu.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		350BC92929B4D056004FDD49 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				350BC92A29B4D056004FDD49 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		350BC92D29B4D056004FDD49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		350BC92E29B4D056004FDD49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		350BC93029B4D056004FDD49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6295F64D93A002AE8F72AF7A /* Pods-LifesApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BS5VLXVPLJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LifesApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ornek.LifesApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		350BC93129B4D056004FDD49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42B250CE46389860F7CB7144 /* Pods-LifesApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BS5VLXVPLJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LifesApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ornek.LifesApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		350BC91629B4D055004FDD49 /* Build configuration list for PBXProject "LifesApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				350BC92D29B4D056004FDD49 /* Debug */,
+				350BC92E29B4D056004FDD49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		350BC92F29B4D056004FDD49 /* Build configuration list for PBXNativeTarget "LifesApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				350BC93029B4D056004FDD49 /* Debug */,
+				350BC93129B4D056004FDD49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 350BC91329B4D055004FDD49 /* Project object */;
+}

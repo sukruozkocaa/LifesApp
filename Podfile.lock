@@ -1,0 +1,30 @@
+PODS:
+  - Alamofire (5.6.4)
+  - CardSlider (0.1.0)
+  - DownPickerSwift (2.0.0):
+    - DownPickerSwift/Core (= 2.0.0)
+  - DownPickerSwift/Core (2.0.0)
+  - SnapKit (5.6.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - CardSlider
+  - DownPickerSwift
+  - SnapKit
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - CardSlider
+    - DownPickerSwift
+    - SnapKit
+
+SPEC CHECKSUMS:
+  Alamofire: 4e95d97098eacb88856099c4fc79b526a299e48c
+  CardSlider: 0a8f5f17f5a76701771794b07fdaeddc512358c8
+  DownPickerSwift: 1ccb0be9e7edb817d5594b30bafd3ed1ed1cb69b
+  SnapKit: e01d52ebb8ddbc333eefe2132acf85c8227d9c25
+
+PODFILE CHECKSUM: 3a1d0c97f917acecc9943cc786fa051391ac3c7d
+
+COCOAPODS: 1.11.3
